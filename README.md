@@ -85,9 +85,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- The works in this repository belongs to Dakik Yazilim LTD.
-- numerical calculations reported in this article were partially performed at TUBITAK ULAKBIM, High-Performance and Grid Computing Center (TRUBA resources).
-Mention any individuals, organizations, or resources that have contributed to the project.
+- The works in this repository belong to Dakik Yazilim LTD.
+- numerical calculations reported, were partially performed at TUBITAK ULAKBIM, High-Performance and Grid Computing Center (TRUBA resources).
+
 
 
 
