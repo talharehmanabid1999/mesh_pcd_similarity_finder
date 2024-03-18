@@ -44,14 +44,17 @@ Normals weighted by their triangle areas for mean normal computation.
 ![Weighted Normals](weighted_normals.png)
 
 ICP 1 
+
 ![aligned_1](aligned_point_clouds_1.png)
 ![substracted_1](subtracted_point_clouds_1.png)
 
 ICP 2
+
 ![aligned_2](aligned_point_clouds_2.png)
 ![substracted_2](subtracted_point_clouds_2.png)
 
 ICP 3 
+
 ![aligned_3](aligned_point_clouds_3.png)
 ![substracted_3](subtracted_point_clouds_3.png)
 
