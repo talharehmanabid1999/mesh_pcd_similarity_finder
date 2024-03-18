@@ -40,7 +40,16 @@ In this repository, we introduce a novel algorithm that significantly advances t
 
 This repository provides an implementation of the described algorithm. Follow the instructions provided in the documentation to utilize the algorithm for mesh and point cloud similarity assessment in your projects.
 
-## Results
+![Weighted Normals](Absolute Weighted Normals.png)
+![aligned_1](aligned_point_clouds_1.png)
+![substracted_1](subtracted_point_clouds_1.png)
+![aligned_2](aligned_point_clouds_2.png)
+![substracted_2](subtracted_point_clouds_2.png)
+![aligned_3](aligned_point_clouds_3.png)
+![substracted_3](subtracted_point_clouds_3.png)
+
+
+## Comparative Analysis with other baseline methods
 
 The dataset used in our study comprised 73 uniquely labeled parts, each systematically compared against a larger collection of 1063 parts to assess the efficiency and accuracy of various similarity detection methodologies. These comparisons were conducted using four distinct approaches:
 
