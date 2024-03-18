@@ -1,17 +1,29 @@
 # mesh_pcd_similarity_finder
 This repository contains a novel algorithm for robust and accurate similarity assessment between meshes and point clouds in 3D shape analysis. Our approach leverages a two-stage process:
 
+Dependencies
+
+Open3D
+Pandas
+GUDHI
+Trimesh
+PyVista
+Scikit-learn
+NumPy
+SciPy
+copy
+
+
+Explanation of Key Features
+
 Geometric Feature Extraction:
 
-Oriented Bounding Box (OBB) dimensions
-Betti numbers (topological complexity)
-Variance metrics from surface normals and triangle areas
-Fast Point Feature Histograms (FPFH)
+Oriented Bounding Box (OBB) dimensions: Provides a standardized representation of a mesh's scale and orientation.
+Betti numbers (topological complexity): Captures the number of holes or loops in the shape, offering insight into its structural complexity.
+Variance metrics from surface normals and triangle areas: Measures variation in surface curvature and local feature density.
+Fast Point Feature Histograms (FPFH): Creates a descriptive local representation of the shape.
 Refined Alignment and Comparison:
 
-Enhanced Iterative Closest Point (ICP) algorithm with Random Sample Consensus (RANSAC) for precise alignment of top candidate matches.
-Key Innovations
+Enhanced Iterative Closest Point (ICP) algorithm: Iteratively finds the optimal transformation to align two shapes.
+Random Sample Consensus (RANSAC): Robustly handles outliers and noise during the alignment process.
 
-Geometric and Topological Analysis: Combining both types of features provides a more comprehensive shape understanding for the initial similarity assessment.
-Robust Pre-filtering: Geometric feature extraction reduces computational expense by narrowing down the search space.
-Precision Alignment: Enhanced ICP with RANSAC tackles challenges in accurately aligning shapes with diverse scales and orientations.
